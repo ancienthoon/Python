@@ -10,11 +10,11 @@ playing = True
 ball = p.image.load("ball.png")
 b_rect = ball.get_rect(left=490,top=290)
 b_x = 0
-b_y = 0
+b_y = 3
 clock = p.time.Clock()
 
 while playing:
-       
+       #수정됨
        
        clock.tick(60)  
        for event in p.event.get():
